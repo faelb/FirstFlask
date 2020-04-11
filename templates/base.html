@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}"><!-- in soetwas würde man auch js verpacken (das js file) -->
+    {%  block head %}{% endblock %} <!--Ginger2 Syntax - Flask uses this templateengine   % für for schleifen use \{\{  wäre für code der strings zurückgibt-->
+</head>
+<body>
+{%  block body %}{% endblock %}
+</body>
+</html>
